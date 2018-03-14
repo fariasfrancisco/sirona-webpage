@@ -1,3 +1,233 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import '~bulma';
+@import 'assets/styles/colors';
+
+body {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  &.is-primary {
+    background-color: $blue;
+    color: $white;
+    min-height: 100vh;
+
+    &.is-bold {
+      background-image: linear-gradient(141deg, $blue-dark 0%, $blue 71%, $blue-light 100%);
+    }
+
+    &.is-medium {
+      .hero-body {
+        padding-top: 10rem;
+        padding-bottom: 1rem;
+
+        img {
+          &.logo {
+            height: 40em;
+            margin: auto;
+            display: block;
+          }
+
+          &.name {
+            margin-top: 9em;
+            margin-right: 3em;
+            -webkit-animation: slide-in-right 0.4s linear both;
+            animation: slide-in-right 0.4s linear both;
+          }
+
+          &.footmark {
+            margin-top: 3.5em;
+            margin-right: 3em;
+            -webkit-animation: slide-in-right 0.4s linear both;
+            animation: slide-in-right 0.4s linear both;
+          }
+        }
+      }
+    }
+  }
+}
+
+.down-button {
+  &:hover {
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
+  }
+}
+
+.card {
+  border-radius: 1em;
+  background-color: $blue-lighter;
+  color: $white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+
+  h4 {
+    color: $white;
+  }
+
+  .icon-card {
+    padding-top: 1.5em;
+  }
+
+  .card-content {
+    .content {
+      margin: 1em 1em;
+      min-height: 8.3em;
+
+      &.contact {
+        min-height: 1em;
+      }
+
+      a {
+        color: $white;
+        font-weight: 600;
+
+        &:hover {
+          color: $grey-lighter;
+        }
+      }
+
+      h4 {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .card-footer {
+    .card-footer-item {
+      a {
+        color: $white;
+        font-weight: 600;
+
+        &:hover {
+          color: $grey-lighter;
+        }
+      }
+    }
+  }
+}
+
+.features {
+  padding: 2rem 0;
+}
+
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.intro {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.network {
+  margin-top: 10em;
+  height: 40em;
+}
+
+footer {
+  &.footer {
+    padding: 2rem 1.5rem 2rem;
+  }
+
+  img {
+    height: 10em;
+  }
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

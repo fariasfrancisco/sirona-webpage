@@ -1,0 +1,55 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+$yellow: #f1c40f;
+$yellow-light: #F9D543;
+$yellow-lighter: #FFE26C;
+$yellow-dark: #BC9805;
+$yellow-darker: #947700;
+$orange: #FCB03C;
+$green: #66BB6A;
+$green-light: #81C784;
+$green-lighter: #A5D6A7;
+$green-dark: #4CAF50;
+$green-darker: #43A047;
+$red: #F25F5C;
+$red-light: #FF8885;
+$red-lighter: #FFB1AF;
+$red-dark: #D83B37;
+$red-darker: #B01E1A;
+$red-er: #F04844;
+$blue: #247BA0;
+$blue-light: #418FB1;
+$blue-lighter: #6AADCA;
+$blue-dark: #0A678F;
+$blue-darker: #054F6F;
+$turquoise: #068587;
+$black-pure: hsl(0, 0%, 7%);
+$black: hsl(0, 0%, 15%);
+$black-bis: hsl(0, 0%, 20%);
+$black-ter: hsl(0, 0%, 26%);
+$grey-darker: hsl(0, 0%, 33%);
+$grey-dark: hsl(0, 0%, 41%);
+$grey: hsl(0, 0%, 50%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+$white-ter: hsl(0, 0%, 92%);
+$white-bis: hsl(0, 0%, 96%);
+$white: hsl(0, 0%, 98%);
+$white-pure: hsl(0, 0%, 100%);
+
+$primary: $blue;
+$info: $turquoise;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+
+.is-white {
+  color: $white;
+}
+
+.is-grey {
+  color: $grey;
+}
+
+$input-background-color: $white-pure;
+$box-background-color: $white-bis;

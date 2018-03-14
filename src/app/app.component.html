@@ -1,20 +1,201 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<section class="hero is-primary is-medium is-bold">
+  <div class="hero-body">
+    <div class="columns">
+      <div class="column is-one-third">
+        <img src="../assets/svg/logo_parts/light/logo.svg" class="logo" alt="">
+      </div>
+      <div class="column">
+        <img src="../assets/svg/logo_parts/light/name.svg" class="name slide-in-right" alt="">
+        <img src="../assets/svg/logo_parts/light/footmark.svg" class="footmark slide-in-right" alt="">
+      </div>
+    </div>
+    <div class="columns is-centered" style="padding-top: 4em;">
+      <div class="column is-narrow">
+        <a href="#tgt_1" id="down">
+          <i class="far fa-arrow-alt-circle-down down-button" data-fa-transform="grow-25"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
+<div id="tgt_1"></div>
+
+<section class="container">
+  <div class="columns features">
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-image has-text-centered icon-card">
+          <i class="far fa-tachometer" data-fa-transform="grow-20"></i>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <h4 class="has-text-centered">Diseñado para Rapidez</h4>
+            <p class="has-text-justified">
+              Sirona está diseñado para que la búsqueda y el registro de información médica sea más <em>rápido</em> que
+              nunca!
+            </p>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <a href="#tgt_2">Descubra más</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-image has-text-centered icon-card">
+          <i class="far fa-share-alt" data-fa-transform="grow-20"></i>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <h4 class="has-text-centered">Altamente Integrable</h4>
+            <p class="has-text-justified">
+              Programado bajo el estandard <a href="https://www.hl7.org/fhir/" target="_blank">FHIR de HL7</a>, Sirona
+              puede integrarse y comunicarse fácilmente con otros <em>sistemas médicos o de facturación!</em>
+            </p>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <a href="#tgt_3">Descubra más</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-image has-text-centered icon-card">
+          <i class="fab fa-searchengin" data-fa-transform="grow-20"></i>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <h4 class="has-text-centered">Apoyado por SNOMED CT</h4>
+            <p class="has-text-justified">
+              Con el soporte del mejor
+              <a href="https://www.snomed.org/" target="_blank">Servidor de Terminologías internacional</a>, para la
+              mejor comunicación y búsqueda de <em>conceptos</em>.
+            </p>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <a href="#tgt_3">Descubra más</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="intro column is-8 is-offset-2">
+    <i class="far fa-notes-medical" data-fa-transform="grow-25 up-8"></i>
+    <h2 class="title">Una Historia Clínica orientada a problemas</h2>
+    <p class="subtitle">
+      Sirona brinda la posibilidad de cargar información médica relevante poniendo a disposición la información ya
+      registrada del paciente de una manera cómoda y amigable permitiendo registrar los encuentros médicos con facilidad
+      y fluidez.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="columns">
+    <div class="column">
+      <img src="../assets/images/network.png" class="network" alt="">
+    </div>
+
+    <div class="column" id="tgt_2">
+      <div class="has-text-centered"><i class="far fa-diagnoses" data-fa-transform="grow-16 up-8"></i></div>
+      <h2 class="title has-text-centered">Diagnósticos</h2>
+      <p class="subtitle">
+        El uso de SNOMED CT acelera la búsqueda y el registro de diagnósticos y hallazgos médicos, permitiendo el
+        ingreso de información complemetaria para evolucionar todo lo registrado.
+      </p>
+
+      <hr>
+
+      <div class="has-text-centered"><i class="far fa-procedures" data-fa-transform="grow-16 up-8"></i></div>
+      <h2 class="title has-text-centered">Procedimientos</h2>
+      <p class="subtitle">
+        El servidor de terminologíás también facilita el registro de los procedimientos ordenados al paciente.
+      </p>
+
+      <hr>
+
+      <div class="has-text-centered"><i class="far fa-prescription-bottle" data-fa-transform="grow-16 up-8"></i></div>
+      <h2 class="title has-text-centered">Medicamentos</h2>
+      <p class="subtitle">
+        Se pueden registrar todos los medicamentos ordenados junto con sus indicaciones, evaluando su interacción con
+        las alergias y los diagnósticos registrados del paciente.
+      </p>
+
+      <hr>
+
+      <div class="has-text-centered"><i class="far fa-syringe" data-fa-transform="grow-16 up-8"></i></div>
+      <h2 class="title has-text-centered">Vacunación</h2>
+      <p class="subtitle">
+        Basandose en el calendario nacional de vacunación, se pueden registrar las solicitudes y aplicaciones de
+        inmunización.
+      </p>
+
+      <hr>
+
+      <div class="has-text-centered"><i class="far fa-bullhorn" data-fa-transform="grow-16 up-8"></i></div>
+      <h2 class="title has-text-centered">Gestión de Turnos y Llamador</h2>
+      <p class="subtitle">
+        Sirona incluye un gestor de turnos y de cola de atención de demanda espontánea, así como de un llamador para
+        monitor que llama por nombre a los pacientes.
+      </p>
+
+      <hr>
+
+      <div class="has-text-centered"><i class="far fa-file-medical" data-fa-transform="grow-16 up-8"></i></div>
+      <h2 class="title has-text-centered">Reportes</h2>
+      <p class="subtitle">
+        Toda la información registrada puede exportarse como un archivo pdf para ser impreso o visualizado.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="intro column is-10 is-offset-1" id="tgt_3">
+    <h2 class="title">Sirona utiliza para su desarrollo SNOMED CT y FHIR de HL7</h2>
+    <div class="columns is-centered">
+      <div class="column is-6">
+        <a href="https://www.hl7.org/fhir/" target="_blank"><img src="../assets/images/snomed.png" alt=""></a>
+      </div>
+      <div class="column is-6">
+        <a href="https://www.snomed.org/" target="_blank"><img src="../assets/images/hl7_fhir_logo.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="columns">
+    <div class="column is-4 is-offset-4">
+      <div class="card">
+        <div class="card-content">
+          <div class="content contact has-text-centered">
+            <p><i class="far fa-envelope"></i> oghmadev@gmail.com </p>
+            <p><i class="far fa-phone"></i> (0379) 154 - 784778 </p>
+            <p><i class="far fa-phone"></i> (0379) 154 - 735676 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <img src="../assets/svg/logo_parts/dark/logo.svg" alt="">
+    </div>
+  </div>
+</footer>
